@@ -14,11 +14,11 @@ def greet(name=""):
 
 
 def minimum(*args):
-    """
+    r"""
     A function taking some arguments and returning the minimum number among the arguments.
 
-    :param *args: The numbers from which to return the minimum
-    :type *args: int|float
+    :param \*args: The numbers from which to return the minimum
+    :type \*args: int|float
     :return: The minimum
     :rtype: int|float
     """
