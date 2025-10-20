@@ -5,15 +5,10 @@ def greet(name=""):
     """
     A function that takes a name and returns a greeting.
 
-    Parameters
-    ----------
-    name : str, optional
-        The name to greet (default is "")
-
-    Returns
-    -------
-    str
-        The greeting
+    :param name: The name to greet, defaults to ""
+    :type name: str|""
+    :return: The greeting
+    :rtype: str
     """
     return f"Hello {name}"
 
@@ -22,15 +17,10 @@ def minimum(*args):
     """
     A function taking some arguments and returning the minimum number among the arguments.
 
-    Parameters
-    ----------
-    args : int, float
-        The numbers from which to return the minimum
-
-    Returns
-    -------
-    int, float
-        The minimum
+    :param *args: The numbers from which to return the minimum
+    :type *args: int|float
+    :return: The minimum
+    :rtype: int|float
     """
     if not any([isinstance(arg, numbers.Real) for arg in args]):
         return
