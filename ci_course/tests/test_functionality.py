@@ -17,10 +17,11 @@ def test_minimum():
     assert ci_course.minimum(1.2, 2.3) == 1.2
     assert ci_course.minimum(-1.2, -3) == -3
 
+
 def test_minimum_with_nonreals():
     """
     Test the function 'minimum' in functionality.py
     with non-real arguments
     """
     assert ci_course.minimum("Foo", 1, "baz") is None
-    assert ci_course.minimum(1j, -3, -3+2j) is None
+    assert ci_course.minimum(1j, -3, -3 + 2j) is None
