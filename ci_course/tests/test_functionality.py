@@ -23,5 +23,5 @@ def test_minimum_with_nonreals():
     Test the function 'minimum' in functionality.py
     with non-real arguments
     """
-    assert ci_course.minimum("Foo", 1, "baz") is None
-    assert ci_course.minimum(1j, -3, -3 + 2j) is None
+    assert ci_course.minimum("Foo", "ban", "baz") is None
+    assert ci_course.minimum(1j, -3j, -3 + 2j) is None
